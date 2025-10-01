@@ -1,0 +1,19 @@
+<svg viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
+
+  
+  <!-- White rounded rectangle background for the icon (even smaller) -->
+  <rect x="30" y="45" width="40" height="40" rx="6" ry="6" fill="#ffffff"/>
+  
+  <!-- Overlapping M and N with modern styling -->
+  <text x="42" y="68" fill="#000000" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="-1px">M</text>
+  <text x="52" y="68" fill="#333333" font-family="Helvetica, Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="-1px">N</text>
+  
+  <!-- Small accent dot -->
+  <circle cx="60" cy="52" r="2" fill="#6366f1"/>
+  
+  <!-- NOMAN text in white (aligned with icon bottom) -->
+  <text x="85" y="85" fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="48" font-weight="300" letter-spacing="2px">MUHAMMAD</text>
+  
+  <!-- Dev text in gray (aligned with NOMAN) -->
+  <text x="400" y="85" fill="#999999" font-family="Helvetica, Arial, sans-serif" font-size="48" font-weight="300" letter-spacing="2px">NOMAN</text>
+</svg>
