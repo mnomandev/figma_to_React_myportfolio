@@ -33,7 +33,7 @@ const AboutStats = () => {
               {/* Stat Item */}
               <div className="p-6 text-center hover:bg-[#0f0f0f] rounded-xl transition-all duration-300">
                 <div className="text-4xl font-bold bg-gradient-to-r from-gray-800 via-gray-200 to-gray-600 bg-clip-text text-transparent mb-2">
-                  210
+                  20+
                 </div>
                 <div className="text-sm font-medium text-gray-300">Projects</div>
               </div>

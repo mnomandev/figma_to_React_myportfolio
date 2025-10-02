@@ -32,69 +32,59 @@ const Contact = () => {
 
   return (
     <>
-      <div className="min-h-screen bg-black text-white flex items-center justify-center px-6 py-12">
-        {/* Contact Section */}
-        <section className="flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-20 w-full max-w-7xl">
-          {/* Image */}
-          <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
-            <img
-              src={ContactImg}
-              alt="Contact"
-              className="w-full h-auto object-contain"
-            />
+      {/* Contact Section */}
+      <div className="bg-black text-white flex items-center justify-center px-6 lg:pt-10">
+        <section className="flex flex-col lg:flex-row items-center justify-center w-full max-w-6xl gap-16">
+          {/* Left Side - Image */}
+          <div className="flex justify-center">
+            <div className="w-[320px] h-[320px] rounded-full overflow-hidden border-4 border-gray-800 shadow-lg">
+              <img
+                src={ContactImg}
+                alt="Contact"
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
 
-          {/* Form */}
-          <div className="flex flex-col w-full max-w-lg lg:max-w-xl">
-            <h1
-              className="tracking-tighter font-medium 
-              text-3xl sm:text-4xl md:text-5xl lg:text-6xl 
-              bg-gradient-to-r from-gray-900 via-gray-100 to-gray-800 
-              bg-clip-text leading-tight mb-8 text-center lg:text-left"
-            >
-              <span className="text-gray-300">Contact</span>{" "}
-              <span className="text-white">me.</span>
-            </h1>
+          {/* Right Side - Form */}
+          <div className="w-full max-w-xl">
+            <h1 
+  className="
+    text-3xl sm:text-4xl md:text-5xl lg:text-6xl 
+    font-medium mb-10 
+    text-center lg:text-left
+  "
+>
+  <span className="text-gray-400">Contact</span>{" "}
+  <span className="text-white">me.</span>
+</h1>
 
-            <form
-              ref={formRef}
-              onSubmit={sendEmail}
-              className="flex flex-col gap-5"
-            >
+            <form ref={formRef} onSubmit={sendEmail} className="flex flex-col gap-2">
               <input
                 name="user_name"
                 type="text"
                 placeholder="Name"
-                className="bg-[#141313] border border-gray-700 rounded-lg 
-                px-4 py-3 w-full text-white 
-                focus:outline-none focus:border-gray-400 transition"
+                className="bg-[#111] border border-gray-700 rounded-md px-4 py-1 w-full text-white focus:outline-none focus:border-gray-400"
               />
 
               <input
                 name="user_email"
                 type="email"
                 placeholder="Email"
-                className="bg-[#141313] border border-gray-700 rounded-lg 
-                px-4 py-3 w-full text-white 
-                focus:outline-none focus:border-gray-400 transition"
+                className="bg-[#111] border border-gray-700 rounded-md px-4 py-1 w-full text-white focus:outline-none focus:border-gray-400"
               />
 
               <textarea
                 name="message"
                 rows="5"
                 placeholder="Type your message..."
-                className="bg-[#141313] border border-gray-700 rounded-lg 
-                px-4 py-3 w-full text-white resize-none
-                focus:outline-none focus:border-gray-400 transition"
+                className="bg-[#111] border border-gray-700 rounded-md px-4 py-2 w-full text-white resize-none focus:outline-none focus:border-gray-400"
               ></textarea>
 
               {/* Send Button */}
               <button
                 type="submit"
-                className="mt-4 bg-gradient-to-r from-[#1E1E1E] to-transparent 
-                border border-gray-600 rounded-full py-3 px-6 w-full 
-                flex items-center justify-center gap-2 
-                hover:from-gray-700 hover:to-gray-900 transition duration-300"
+                className="bg-gradient-to-r from-[#1E1E1E] to-transparent border border-gray-600 rounded-full py-1 px-6 w-full flex items-center justify-center gap-2 hover:from-gray-700 hover:to-gray-900 transition duration-300"
               >
                 <svg
                   className="w-5 h-5"

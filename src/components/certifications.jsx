@@ -20,7 +20,7 @@ const Certifications = () => {
       </h1>
 
    {/* Content */}
-<div className="w-full max-w-4xl mx-auto flex flex-col md:flex-row items-stretch justify-center gap-12 sm:gap-10">
+<div className="w-full max-w-4xl mx-auto flex flex-col md:flex-row items-stretch justify-center gap-5 sm:gap-4">
   {/* Left side image */}
   <div className="bg-[#111] p-4 sm:p-6 rounded-3xl shadow-xl flex justify-center items-center w-full max-w-[400px] sm:max-w-[500px]">
     <img
@@ -45,8 +45,6 @@ const Certifications = () => {
     ))}
   </div>
 </div>
-
-
     </div>
   );
 };

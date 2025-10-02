@@ -33,8 +33,8 @@ const FAQ = () => {
   };
 
   return (
-    <div className="bg-black py-16 px-4">
-        <div className="text-center mb-12">
+    <div className="bg-black py-16 px-4 pt-0">
+        <div className="text-center mb-12 ">
          <h1 className="pb-2 tracking-tighter font-semibold 
                          text-3xl sm:text-4xl md:text-4xl lg:text-5xl
                          bg-gradient-to-r from-gray-600 via-gray-300 to-gray-700 
@@ -53,7 +53,8 @@ const FAQ = () => {
               {/* Question Button */}
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full flex justify-between items-center p-6 text-left hover:bg-gray-900/50 transition-colors duration-200"
+                className="w-full flex justify-between items-center p-6 text-left hover:bg-gray-900/50 transition-colors duration-200
+                "
               >
                 <h3 className="text-lg md:text-xl font-medium text-gray-100 pr-4 leading-relaxed">
                   {item.question}

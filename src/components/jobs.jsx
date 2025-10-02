@@ -18,16 +18,16 @@ const Jobs = () => {
   ];
 
   return (
-    <div className="bg-black text-white px-6 md:px-12 lg:px-20 py-16">
+    <div className="bg-black text-white px-6 md:px-12 lg:px-20 py-10">
       <div className="max-w-[1200px] mx-auto">
         {/* Heading */}
         <h1
-  className="pb-10 tracking-tighter font-medium 
+          className="pb-10 tracking-tighter font-medium 
   text-3xl sm:text-4xl md:text-5xl lg:text-6xl
   bg-gradient-to-r from-gray-600 via-gray-300 to-gray-700 
   bg-clip-text text-transparent leading-tight 
   text-center whitespace-normal"
->
+        >
           Job experience
         </h1>
 
