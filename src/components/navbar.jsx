@@ -11,9 +11,9 @@ const Navbar = () => {
 
   return (
     <header className="py-10"> {/* ⬅️ small vertical padding, not too tall */}
-      <nav className="max-w-4xl flex items-center justify-between bg-[#1E1E1E] rounded-full mx-auto px-4 sm:px-6 lg:px-10 h-10 sm:h-12 shadow-md">
+     <nav className="max-w-5xl flex items-center justify-between bg-[#1E1E1E] rounded-full mx-auto px-4 sm:px-6 lg:px-10 h-16 sm:h-14 shadow-md">
         {/* Logo */}
-        <img src={logo} alt="Logo" className="h-7 sm:h-8 md:h-9" />
+       <img src={logo} alt="Logo" className="h-8 w-auto max-w-[200px] flex-shrink-0" />
 
         {/* Desktop Links */}
         <div className="hidden md:flex items-center gap-6 lg:gap-8">
