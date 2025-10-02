@@ -1,16 +1,39 @@
-# React + Vite
+# 🎨 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **portfolio website** built with **React + Tailwind CSS**, transformed from a Figma design into a fully functional React application.  
 
-Currently, two official plugins are available:
+This project showcases my ability to **convert UI/UX designs into production-ready code**, ensuring pixel-perfect layouts, mobile responsiveness, and a smooth user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔥 **Pixel-perfect Figma to React implementation**  
+- 📱 **Fully responsive** (mobile, tablet, desktop)  
+- 🎨 Styled with **Tailwind CSS** (utility-first, scalable, and maintainable)  
+- ⚡ **Reusable components** for cleaner code (Navbar, Footer, Cards, Modals, etc.)  
+- 🌙 **Dark theme design** with modern gradients and shadows  
+- ✉️ **Contact form** integrated with [EmailJS](https://www.emailjs.com/)  
+- 🖼️ Sections for:
+  - Hero / Introduction  
+  - About Me  
+  - Job Experience  
+  - Certifications  
+  - Projects  
+  - Contact  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **React.js** – Frontend framework  
+- **Tailwind CSS** – Styling & responsiveness  
+- **Framer Motion** – Smooth animations and transitions  
+- **EmailJS** – Contact form integration  
+- **Vite / CRA** – Fast development setup  
+
+---
+
+## Live Link
+- https://mnomandev.netlify.app/
+
